@@ -1,11 +1,11 @@
 var n = 3; // Example input, you can change this value
 
 function checkPrime(num) {
-    if (num <= 1) return false; // 0 and 1 are not prime numbers
+    if (num <= 1) return false; 
     for (let i = 2; i <= Math.sqrt(num); i++) {
-        if (num % i === 0) return false; // Found a divisor, not prime
+        if (num % i === 0) return false; 
     }
-    return true; // No divisors found, it's prime
+    return true; 
 }
 
 function Prime(n){

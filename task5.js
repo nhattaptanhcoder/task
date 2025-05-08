@@ -19,7 +19,6 @@ function Prime(n,m){
     }
     return arrStore;
 }
-co
 let sumPrime = function (n,m) {
     let arr = Prime(n,m);
     let sum = 0;

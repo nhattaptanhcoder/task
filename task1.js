@@ -17,3 +17,4 @@ function checkQPrime(n) {
 }
 checkQPrime(n);
 console.log(arrStore);
+
