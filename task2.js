@@ -1,4 +1,4 @@
-var n = 3; // Example input, you can change this value
+var n = 3; 
 
 function checkPrime(num) {
     if (num <= 1) return false; 
@@ -10,7 +10,7 @@ function checkPrime(num) {
 
 function Prime(n){
     let arrStore = [];
-    for (let i = Math.pow(10, n-1 ); i <= Math.pow(10 , n); i++) {
+    for (let i = Math.pow(10, n-1 ); i < Math.pow(10 , n); i++) {
         if (checkPrime(i)) {
             arrStore.push(i);
         }

@@ -20,5 +20,14 @@ function Prime(n,m){
     return arrStore;
 }
 
-console.log(Prime(n,m));
+function countPrime(n,m) {
+    let arr = Prime(n,m);
+    let count = 0;
+    arr.forEach(element => {
+        count += element;
+    });
+    return count;
+}
+
+console.log(countPrime(n,m));
 
