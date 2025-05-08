@@ -30,3 +30,4 @@ let sumPrime = function (n,m) {
 }
 
 console.log(sumPrime(n,m));
+
