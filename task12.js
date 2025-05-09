@@ -39,7 +39,8 @@ function checkSumPrime(n) {
             arrStore.push(arr[i + count]);
             count++;
         }
-          if (checkPrime(sumPrime(arrStore))){
+          if (checkPrime(sumPrime(arrStore)) || sumPrime(arrStore) === n){
+
             console.log(arrStore);
           }
     }
